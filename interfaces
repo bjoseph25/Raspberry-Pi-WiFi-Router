@@ -1,0 +1,9 @@
+auto wlan0
+iface wlan0 inet static
+    address 10.20.1.1
+    netmask 255.255.248.0
+    gateway 10.160.80.1
+#iface wlan0 inet dhcp
+#allow-hotplug wlan0
+#auto eth0
+#iface eth0 inet dhcp
